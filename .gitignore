@@ -1,0 +1,7 @@
+/target/
+/target/classes
+/.idea/
+*.iml
+AppiumLog.txt
+/screenshot
+/extentReport.html

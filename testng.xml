@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Assignment">
+    <listeners>
+        <!-- Add listeners if needed -->
+    </listeners>
+    
+    <beforeSuite>
+        <class name="ServerStart"/>
+        <class name="reportSetup"/>
+        <!-- Add more setup classes if needed -->
+    </beforeSuite>
+
+    <test name="secondTask">
+        <classes>
+            <class name="Task2"/>
+            <!-- Add more test classes as needed -->
+        </classes>
+    </test>
+</suite>
